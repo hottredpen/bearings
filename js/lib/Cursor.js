@@ -1,9 +1,16 @@
 var Cursor = {};
+// 光标
 
 /* (From Stackoverflow)
 ** Returns the caret (cursor) position of the specified text field.
 ** Return value range is 0-oField.value.length.
 */
+/**（从StackOverflow）
+*返回插入符号（光标）的指定文本字段的位置。
+*返回值的范围是0-ofield.value.length。
+*/
+
+// 获取光标符号的位置
 Cursor.getCaretPosition  = function(oField) {
   // Initialize
   var iCaretPos = 0;
